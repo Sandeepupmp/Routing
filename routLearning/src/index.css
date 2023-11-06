@@ -13,7 +13,38 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+.header{
+ width: 100vw;
+  height: 56px;
+  background-color: #213547;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer{
+  width: 100vw;
+  height: 56px;
+  background-color: rgb(244, 93, 115);
+  position: absolute;
+  bottom:  0;
+  right: 0;
+  color: white;
+}
+.sidebar{
+  width: 150px;
+  height: calc(100vh - 112px);
+  background-color: lightpink;
+  position: absolute;
+  top: 56px;
+ left: 0;
+ overflow: hidden;
+  
+  color: white;
+}
 a {
   font-weight: 500;
   color: #646cff;

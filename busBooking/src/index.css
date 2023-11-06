@@ -1,0 +1,34 @@
+*
+  {
+   margin: 0;
+   padding: 0;
+    
+  }
+body,html{
+  background-color: lightslategray;
+  font-family: sans-serif;
+  text-align: center;
+}
+.about{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 100px;
+  flex-direction: column;
+  color: white;
+
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 66px;
+  background-color: rgb(70, 82, 94);
+  color: white;
+
+}
+.header a{
+  color: wheat;
+  font-size: larger;
+}
